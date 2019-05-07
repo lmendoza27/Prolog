@@ -1,0 +1,13 @@
+chico(luis).
+chico(oscar).
+chico(henry).
+chico(paolo).
+chica(linda).
+chica(angela).
+chica(alicia).
+chica(gia).
+chica(farrah).
+gato(bigotes).
+persona(X):-chico(X).
+persona(X):-chica(X).
+amigos(W,Z):-persona(W),persona(Z),W\==Z.
