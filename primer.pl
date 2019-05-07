@@ -1,0 +1,2 @@
+estudiante(pedro).
+estuidante(maria).
